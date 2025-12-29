@@ -65,23 +65,20 @@ export default async function Project({ params }) {
       <script type="application/ld+json">
         {JSON.stringify(project.structuredData)}
       </script>
-      <h1 className="font-bold text-3xl font-serif max-w-[650px]">
+      <h1 className="font-bold text-3xl font-serif max-w-[650px] bg-nature-600 dark:bg-nature-200 rounded-md px-2 py-1 inline-block">
         <Balancer>{project.title}</Balancer>
       </h1>
-      <div className="grid grid-cols-[0.15fr_0.23fr_auto] items-center mt-4 mb-8 font-light text-sm max-w-[650px]">
-        <div className="bg-neutral-100 dark:bg-neutral-800 rounded-md px-2 py-1 tracking-tighter mr-2">
+      <div className="flex items-center gap-4 mt-4 mb-8 font-light text-sm max-w-[650px]">
+        <div className="text-nature-200 dark:text-nature-600">
           {project.publishedAt}
         </div>
-        <div className="bg-neutral-100 dark:bg-neutral-800 rounded-md px-2 py-1 tracking-tighter">
-          <a href={project.link}>
-            <div className="flex items-center">
-              <GitHubIcon />
-              <div className="ml-3">Link to repository</div>
-            </div>
-          </a>
-        </div>
+        <a href={project.link} className="text-nature-200 dark:text-nature-600">
+          <div className="flex items-center">
+            <GitHubIcon />
+            <div className="ml-2">Link to repository</div>
+          </div>
+        </a>
       </div>
-      <hr />
       <Mdx code={project.body.code} />
     </section>
   );

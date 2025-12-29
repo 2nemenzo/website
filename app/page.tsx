@@ -7,23 +7,15 @@ export default async function HomePage() {
 
   return (
     <section>
-      <h1 className="font-bold text-3xl font-serif">{name}</h1>
-      <p className="my-5 max-w-[460px] text-neutral-200 dark:text-neutral-800">
-        Hello, I'm Nathaniel! If you've happened upon my website, you're likely
+      <h1 className="font-bold text-3xl font-serif">about me</h1>
+      <p className="my-5 max-w-[460px] text-nature-100 dark:text-nature-700">
+        hello, i'm nathaniel! if you've happened upon my website, you're likely
         one of the following: a friend, a coworker, a recruiter, or someone who
-        stumbled here by accident. There's not much here right now, but I hope
-        that eventually there will be. Nice to meet you!
+        stumbled here by accident. there's not much here right now, but i hope
+        that eventually there will be. nice to meet you!
       </p>
       <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
-        <Image
-          alt={name}
-          className="rounded-full grayscale"
-          src={avatar}
-          placeholder="blur"
-          width={100}
-          priority
-        />
-        <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-400 dark:text-neutral-500">
+        <div className="space-y-2 text-nature-200 dark:text-nature-600">
           <a
             rel="noopener noreferrer"
             target="_blank"

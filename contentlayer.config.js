@@ -34,7 +34,7 @@ const computedFields = {
       url: `https://nnemenzo.com/blog/${doc._raw.flattenedPath}`,
       author: {
         '@type': 'Person',
-        name: 'Nathaniel Nemenzo',
+        name: 'nathaniel nemenzo',
       },
     }),
   },

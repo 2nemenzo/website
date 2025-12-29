@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 ::selection {
-  background-color: #47a3f3;
-  color: #fefefe;
+  background-color: #40916c;
+  color: #d8f3dc;
 }
 
 html {
@@ -26,11 +26,11 @@ html {
 }
 
 .prose a {
-  @apply transition-all decoration-neutral-600 dark:decoration-neutral-400 underline-offset-2 decoration-[0.1em];
+  @apply transition-all decoration-nature-500 dark:decoration-nature-300 underline-offset-2 decoration-[0.1em];
 }
 
 .prose .anchor:after {
-  @apply text-neutral-700 dark:text-neutral-300;
+  @apply text-nature-300 dark:text-nature-600;
   content: '#';
 }
 
@@ -39,15 +39,15 @@ html {
 }
 
 .prose pre {
-  @apply border border-neutral-800 bg-neutral-900;
+  @apply border border-nature-700 bg-nature-800;
 }
 
 .prose code {
-  @apply text-neutral-200 dark:text-neutral-800 px-1 py-0.5 border border-neutral-800 dark:border-neutral-100 rounded-lg bg-neutral-900 dark:bg-neutral-100;
+  @apply text-nature-50 dark:text-nature-700 px-1 py-0.5 border border-nature-700 dark:border-nature-200 rounded-lg bg-nature-800 dark:bg-nature-100;
 }
 
 .prose pre code {
-  @apply text-neutral-200 dark:text-neutral-800 p-0;
+  @apply text-nature-50 dark:text-nature-700 p-0;
   border: initial;
 }
 
@@ -64,7 +64,7 @@ html {
 
 code[class*='language-'],
 pre[class*='language-'] {
-  @apply text-neutral-50;
+  @apply text-nature-50;
 }
 
 pre::-webkit-scrollbar {
@@ -127,7 +127,7 @@ table {
   @apply rounded-md bg-slate-500 bg-opacity-10 p-1;
 }
 [data-rehype-pretty-code-title] {
-  @apply px-4 py-3 font-mono text-xs font-medium border rounded-t-lg text-neutral-200 border-[#333333] bg-[#1c1c1c];
+  @apply px-4 py-3 font-mono text-xs font-medium border rounded-t-lg text-nature-100 border-nature-700 bg-nature-800;
 }
 [data-rehype-pretty-code-title] + pre {
   @apply mt-0 rounded-t-none border-t-0;

@@ -3,14 +3,14 @@ import Link from 'next/link';
 import { allProjects } from 'contentlayer/generated';
 
 export const metadata: Metadata = {
-  title: 'Projects',
-  description: 'My projects.',
+  title: 'projects',
+  description: 'my projects.',
 };
 
 export default async function ProjectPage() {
   return (
     <section>
-      <h1 className="fond-bold text-3xl font-serif mb-5">Projects</h1>
+      <h1 className="fond-bold text-3xl font-serif mb-5">projects</h1>
       {allProjects
         .sort((a, b) => {
           if (new Date(a.publishedAt) > new Date(b.publishedAt)) {
