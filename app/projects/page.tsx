@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { allProjects } from 'contentlayer/generated';
-// import { GitHubIcon } from 'components/icons';
-// import ViewCounter from './view-counter';
 
 export const metadata: Metadata = {
   title: 'Projects',
@@ -31,14 +29,6 @@ export default async function ProjectPage() {
               <p className="font-light text-sm text-neutral-400 dark:text-neutral-500 my-1">
                 {post.publishedAt}
               </p>
-              {/* <div className="flex flex-wrap">
-            {
-              post.keywords.split(',').map((keyword) => (
-                <span className="bg-gray-200 rounded-full px-2 text-sm font-light text-gray-700 mr-2 mt-1" key={keyword}>{keyword}</span>
-
-              ))
-            }
-            </div> */}
               <p className="font-light text-white dark:text-black">
                 {post.summary}
               </p>

@@ -1,23 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { getBlogViews, getTweetCount, getRepoCount } from 'lib/metrics';
 import { ArrowIcon, GitHubIcon } from 'components/icons';
 import { name, avatar } from 'lib/info';
 
-export const revalidate = 60;
-
 export default async function HomePage() {
-  let repoCount, views, tweetCount;
-
-  try {
-    [repoCount, views, tweetCount] = await Promise.all([
-      getRepoCount(),
-      getBlogViews(),
-      getTweetCount(),
-    ]);
-  } catch (error) {
-    console.error(error);
-  }
 
   return (
     <section>
@@ -53,16 +39,7 @@ export default async function HomePage() {
           </Link>
         </div>
       </div>
-      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-400 dark:text-neutral-500">
-        <li>
-          <a
-            className="flex items-center hover:text-neutral-200 dark:hover:text-neutral-700 transition-all"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://linkedin.com/in/nnemenzo"
-          ></a>
-        </li>
-      </ul>
+
     </section>
   );
 }

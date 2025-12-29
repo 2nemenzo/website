@@ -80,7 +80,6 @@ export default async function Project({ params }) {
             </div>
           </a>
         </div>
-        {/* <ViewCounter slug={project.slug} trackView /> */}
       </div>
       <hr />
       <Mdx code={project.body.code} />

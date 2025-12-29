@@ -13,6 +13,7 @@ const kaisei = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://nnemenzo.com'),
   title: {
     default: 'Nathaniel Nemenzo',
     template: '%s | Nathaniel Nemenzo',
