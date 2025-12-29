@@ -1,10 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { getBlogViews, getTweetCount, getRepoCount } from 'lib/metrics';
-import {
-  ArrowIcon,
-  GitHubIcon,
-} from 'components/icons';
+import { ArrowIcon, GitHubIcon } from 'components/icons';
 import { name, avatar } from 'lib/info';
 
 export const revalidate = 60;
@@ -26,8 +23,10 @@ export default async function HomePage() {
     <section>
       <h1 className="font-bold text-3xl font-serif">{name}</h1>
       <p className="my-5 max-w-[460px] text-neutral-200 dark:text-neutral-800">
-        Hello, I'm Nathaniel! If you've happened upon my website, you're likely one of the following: 
-        a friend, a coworker, a recruiter, or someone who stumbled here by accident. There's not much here right now, but I hope that eventually there will be. Nice to meet you!
+        Hello, I'm Nathaniel! If you've happened upon my website, you're likely
+        one of the following: a friend, a coworker, a recruiter, or someone who
+        stumbled here by accident. There's not much here right now, but I hope
+        that eventually there will be. Nice to meet you!
       </p>
       <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
         <Image
@@ -48,7 +47,7 @@ export default async function HomePage() {
             <GitHubIcon />
             {`github`}
           </a>
-                    <Link href="/blog" className="flex items-center gap-2">
+          <Link href="/blog" className="flex items-center gap-2">
             <ArrowIcon />
             <p className="h-7">linkedin</p>
           </Link>
@@ -61,9 +60,7 @@ export default async function HomePage() {
             rel="noopener noreferrer"
             target="_blank"
             href="https://linkedin.com/in/nnemenzo"
-          >
-
-          </a>
+          ></a>
         </li>
       </ul>
     </section>

@@ -64,7 +64,9 @@ export default async function Blog({ params }) {
     <section>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(post.structuredData) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(post.structuredData),
+        }}
       />
       <h1 className="font-bold text-3xl font-serif max-w-[650px]">
         <Balancer>{post.title}</Balancer>

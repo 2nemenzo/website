@@ -35,7 +35,7 @@ const computedFields = {
       author: {
         '@type': 'Person',
         name: 'Nathaniel Nemenzo',
-      }
+      },
     }),
   },
 };
@@ -71,25 +71,25 @@ export const Project = defineDocumentType(() => ({
   fields: {
     title: {
       type: 'string',
-      required: true
+      required: true,
     },
     publishedAt: {
       type: 'string',
-      required: true
+      required: true,
     },
     summary: {
       type: 'string',
-      required: true
+      required: true,
     },
     link: {
       type: 'string',
-      required: true
+      required: true,
     },
     image: {
-      type: 'string'
-    }
+      type: 'string',
+    },
   },
-  computedFields
+  computedFields,
 }));
 
 export default makeSource({
