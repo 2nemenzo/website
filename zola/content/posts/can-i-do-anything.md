@@ -1,0 +1,17 @@
++++
+title = "can i do anything by myself?"
+date = 2023-09-23
+description = "learning to disregard success"
+[taxonomies]
+tags = []
++++
+
+here is a saying that most people have heard of: 'we stand on the shoulders of giants'. it can be argued that our society is built on this quote. i try to find a facet of society that i can't apply this to, but i fail. for example: we wouldn't have the machines of today without the moments of understanding from our ancestors. we wouldn't have the rights we have today if it weren't for those who fought for it before us. i wouldn't be here without my parents. it's a double-edged sword: we wouldn't have the problems we have today if it weren't for those back then. so then: who really does anything by themselves?
+
+this has been a recurring theme in my studies and any project that i want to begin. i get plagued by uncertainty and [tutorial hell](https://www.wbscodingschool.com/blog/what-is-tutorial-hell-how-to-get-out/) and lose my motivation to continue (the link talks about tutorial hell in programming, but it also can be extended to different areas). i envy those who can go out and just do something they have never done before, regardless if they fail or succeed. i desperately require validation beforehand to know that this path is correct; i need to succeed. any undertaking that i take is now defined by my success, and not the journey.
+
+in a conversation with one of my closest friends in medical school, i asked him what motivates him to keep grinding. he said that he is more motivated by the need to know rather than whether he succeeds or not. this was a fresh change of mindset for me. but can i find inside myself the curiousity to know? i'm still not sure, but working on my current projects, i still feel curious and my mind is still fresh.
+
+in the summary of this post, i put 'learning to disregard success'. this is true to an extent, of course. if you focus too much on success, you become unwilling to move, if you focus too little on success, you lose sight. for me, i think this balance boils down to two key things: trust that everything will be okay, and take small steps to get there. this way, you don't lose your sight because you are working in small increment, and you don't get bogged down by the notion of success and failure because you know in the end it will be okay.
+
+i feel like this post strayed a little from the 'can i do anything by myself portion' but i think the balance that i described above as well as the mindset changes gives a loose framework of how i personally try to do things by myself. of course, i use tutorials along the way, but i'm not afraid to start new things.
